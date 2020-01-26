@@ -39,7 +39,6 @@
 
 				container = document.createElement( 'div' );
 				document.body.appendChild( container );
-				document.body.appendChild( VRButton.createButton( renderer ) );
 
 				camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.1, 100 );
 				camera.position.set(2,2,2);
@@ -113,6 +112,9 @@
 				renderer.setSize( window.innerWidth, window.innerHeight );
 				renderer.xr.enabled = true;
 				container.appendChild( renderer.domElement );
+				container.appendChild( VRButton.createButton( renderer ) );
+
+
 
 				// controls
 
