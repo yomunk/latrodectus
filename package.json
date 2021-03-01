@@ -4,7 +4,7 @@
   "description": "Web Viewer",
   "main": "index.js",
   "dependencies": {
-    "three": "^0.112.1"
+    "three": "^0.125.0"
   },
   "devDependencies": {},
   "scripts": {
